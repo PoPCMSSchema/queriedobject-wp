@@ -19,6 +19,7 @@
     "prefer-stable": true,
     "require": {
         "php" : "~7.1",
+        "getpop/queriedobject": "^1.0@dev",
         "getpop/migrate-queriedobject-wp": "^1.0@dev"
     },
     "require-dev": {
