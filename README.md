@@ -25,7 +25,9 @@ composer require getpop/queriedobject-wp
 Initialize the component:
 
 ``` php
-\PoP\QueriedObjectWP\Component::initialize();
+\PoP\Root\ComponentLoader::initializeComponents([
+    \PoP\QueriedObjectWP\Component::class,
+]);
 ```
 
 ## Standards
